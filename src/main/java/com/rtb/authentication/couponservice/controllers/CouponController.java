@@ -14,11 +14,11 @@ public class CouponController {
     @Autowired
     private CouponService couponService;
 
-    @GetMapping("/")
-    public String index() {
-
-        return "index";
-    }
+//    @GetMapping("/")
+//    public String index() {
+//
+//        return "index";
+//    }
 
     @GetMapping("/showCreateCoupon")
     public String showCreateCoupon() {
